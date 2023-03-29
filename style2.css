@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.left {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+
+.right {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 277px;
+}
